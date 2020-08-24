@@ -4,9 +4,9 @@
             <week-list-item
                 v-for = 'w in weeks'
                 :key = 'w.weekNum'
+                :id = prepareRef(w.weekNum)
                 :week = 'w'
                 :weekNum = 'w.weekNum'
-                :id = prepareRef(w.weekNum)
                 :class= "w.status"
             ></week-list-item>
         </ul>
@@ -39,7 +39,7 @@ export default {
         }
     },
     mounted(){
-        setTimeout(this.focusThisWeek, 1000)
+        setTimeout(this.focusThisWeek, 2000)
     },
     components:{
         WeekListItem

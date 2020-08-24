@@ -51,26 +51,27 @@ export default {
     width: 300px;
     color: gray;
     margin-left: 50px;
+    margin-top: 50px;
     border: 1px solid gray;
 }
 .week-list-contaier .title{
     position: relative;
     text-align: left;
-    padding : 15px 0 15px 15px;
-    border-bottom: 1px solid gray;
+    padding : 15px;
     font-size: 12px;
     font-weight: 700;
+    border-bottom: 1px solid gray;
     background-color: lightgray
 }
 .week-list-contaier .title::before{
-        content:'';
-        width: 2px;
-        height: 16px;
-        background-color: gray;
-        position: absolute;
-        left: 10px;
+    content:'';
+    width: 2px;
+    height: 16px;
+    background-color: gray;
+    position: absolute;
+    left: 10px;
 }
 .week-list-contaier ul{
-        list-style: none;
+    list-style: none;
 }
 </style>
