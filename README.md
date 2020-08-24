@@ -9,8 +9,9 @@ haftaya focuslanacak örnek olarak yukarıdaki 12 hafta da belirtildi. Tasarımd
 hafta geçmiş hafta ve gelecek haftalardaki gibi renklere uygun şekilde yapılmalıdır.)
 
 # Çözüm
+
 3 komponentten oluşan bir modül oluşturuldu.
 
-1- Container: Dataların oluşturulması ve listenin başlık kısmını tutan componenttir.
-2- Liste : Listenin oluşturulması ve doğru elemente focus olunmasını sağlamaktadır.
-3- Liste Elemanları: Listedeki her bir elemanın bilgileri tutar. Görünümü ve içeriğini tutan componenttir.
+1. Container: Dataların oluşturulması ve listenin başlık kısmını tutan componenttir.
+2. Liste : Listenin oluşturulması ve doğru elemente focus olunmasını sağlamaktadır.
+3. Liste Elemanları: Listedeki her bir elemanın bilgileri tutar. Görünümü ve içeriğini tutan componenttir.
