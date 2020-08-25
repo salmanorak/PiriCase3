@@ -53,6 +53,8 @@ export default {
     margin-left: 50px;
     margin-top: 50px;
     border: 1px solid gray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .week-list-contaier .title{
     position: relative;
@@ -61,7 +63,11 @@ export default {
     font-size: 12px;
     font-weight: 700;
     border-bottom: 1px solid gray;
-    background-color: lightgray
+    background-color: lightgray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+
 }
 .week-list-contaier .title::before{
     content:'';
