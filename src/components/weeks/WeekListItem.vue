@@ -39,5 +39,8 @@ export default {
     li.future::before{
         background-color: lightgray;
     }
+    li.future{
+        color: lightgray;
+    }
 
 </style>

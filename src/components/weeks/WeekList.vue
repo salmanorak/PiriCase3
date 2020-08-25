@@ -32,7 +32,9 @@ export default {
     },
     methods:{
         focusThisWeek(){
-            document.querySelector(`#week${this.currentWeek-4}`).scrollIntoView({behavior:"smooth"});
+            if(this.currentWeek>4){
+                document.querySelector(`#week${this.currentWeek-4}`).scrollIntoView({behavior:"smooth"});
+            }
         },
         prepareRef(num){
             return `week${num}`
