@@ -1,24 +1,17 @@
-# weeks
+Piri Medya Case 3
 
-## Project setup
-```
-npm install
-```
+# Reactjs veya Vuejs ile widget geliştirilmesi
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+İlk 4 hafta ve son 3 hafta haricindeki haftalar widgetın tam orta sırasına yani 5. sırada
+gelecek şekilde focuslanacak. Widgetta 8 tane hafta görünecek.İlk 4 hafta ve son 3 hafta için
+tasarımdaki hali gibi görünecek.Kendi içerisinde scroll olacak.(Yani scroll bulunduğumuz
+haftaya focuslanacak örnek olarak yukarıdaki 12 hafta da belirtildi. Tasarımdaki gibi aktif olan
+hafta geçmiş hafta ve gelecek haftalardaki gibi renklere uygun şekilde yapılmalıdır.)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+# Çözüm
 
-### Lints and fixes files
-```
-npm run lint
-```
+3 komponentten oluşan bir modül oluşturuldu.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. Container: Dataların oluşturulması ve listenin başlık kısmını tutan componenttir.
+2. Liste : Listenin oluşturulması ve doğru elemente focus olunmasını sağlamaktadır.
+3. Liste Elemanları: Listedeki her bir elemanın bilgileri tutar. Görünümü ve içeriğini tutan componenttir.
